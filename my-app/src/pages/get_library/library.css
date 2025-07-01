@@ -1,0 +1,75 @@
+.library_card {
+     width:600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease;
+  }
+  
+  .library_card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .library_name {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .library_info p {
+    margin: 10px 0;
+    color: #444;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .library_info p span {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  
+  .library_link {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .library_link:hover {
+    background-color: #004999;
+  }
+  
+  .btn{
+    display:block;
+    width:inherit;
+    margin-top: 25px;
+    text-align: center;
+    
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .update_btn{
+    background-color: #a99f33;
+  }
+  .update_btn:hover{
+    background-color: #a99f3399;
+  }
+.delete_btn{
+  background-color: #a02727;
+}
+  .delete_btn:hover{
+      background-color:#a027278b;
+  }

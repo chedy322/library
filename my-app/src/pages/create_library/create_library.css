@@ -1,0 +1,39 @@
+.library_form{
+    display:flex;
+    flex-direction: column;
+}
+
+.library_form>form{
+    width:600px;
+    height:fit-content;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease;
+    display:flex;
+    flex-direction: column;
+  }
+  
+
+.library_form>form:hover {
+  transform: translateY(-5px);
+  cursor:pointer;
+}
+.library_form>form>label{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.library_form>form>input{
+    border:2px solid black;
+    margin:8px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px;
+}
+.form_button:hover{
+    background-color: rgba(240, 248, 255, 0.392);
+    border:none;
+}
