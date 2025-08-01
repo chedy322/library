@@ -3,7 +3,7 @@ const app=express()
 const cors=require('cors')
 require('dotenv').config()
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin:'https://frontend-library-2.onrender.com/',
     credentials:true
 }))
 const port=process.env.PORT||3500
