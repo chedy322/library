@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import {useParams} from 'react-router-dom';
 
-const url="https://library-3-1tsv.onrender.com"
+const url="https://library-3-1tsv.onrender.com/libraries"
 export const useLibraries=()=>{
     const [libraries,setLibraries]=useState([])
     const [loading,setLoading]=useState(true)
